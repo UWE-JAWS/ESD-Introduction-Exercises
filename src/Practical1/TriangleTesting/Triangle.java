@@ -33,6 +33,11 @@ public class Triangle {
         this.type = this.determineType();
     }
     
+    // accessor for type
+    public TriangleType getType() {
+        return this.type;
+    }
+    
     private TriangleType determineType() {
         // TODO: Refactor this unweildable spaghetti code!
         if (this.edge_a == this.edge_b) {
